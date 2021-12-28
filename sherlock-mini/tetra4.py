@@ -8,10 +8,10 @@ from datetime import datetime
 # -------------------------------------------------
 smtp_ser = 'smtp.gmail.com'
 smtp_port = 587
-receiver = "testers14785@gmail.com"
-sender = "testers14785@gmail.com"
-backup = "sandeepyadav1478@gmail.com"
-password = "*QWER147852369tyui"
+receiver = #receiver's email 
+sender = #sender's email
+backup = #backup email address/secondary email address
+password = #password
 subj = "Taday's Report from Sherlock, "+ str(datetime.now())
 # --------------------------------------------------
 
